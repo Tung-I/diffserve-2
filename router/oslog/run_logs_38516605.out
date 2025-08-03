@@ -1,0 +1,3794 @@
+/work/pi_huiguan_umass_edu/qizhengyang/query_aware_pipe/extend_diffserve/router
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/condabin/conda
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/conda
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/conda-env
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/activate
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/deactivate
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/etc/profile.d/conda.sh
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/etc/fish/conf.d/conda.fish
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/shell/condabin/Conda.psm1
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/shell/condabin/conda-hook.ps1
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/etc/profile.d/conda.csh
+no change     /home/qizhengyang_umass_edu/.bashrc
+No action taken.
+Current trial: 0/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.02304502196563
+Current trial: 0/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.19792883433456
+Current trial: 0/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.560349262349348
+Current trial: 0/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.767504819325893
+Current trial: 0/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.314536575511397
+Current trial: 0/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.736588799200206
+Current trial: 0/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.465174553399777
+Current trial: 0/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.310448720527745
+Current trial: 0/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.08530162490308
+Current trial: 1/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.96762299558543
+Current trial: 1/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.066066624559312
+Current trial: 1/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.448353376523016
+Current trial: 1/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.827791010695023
+Current trial: 1/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.264376476317125
+Current trial: 1/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.900376122513308
+Current trial: 1/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.39527150971776
+Current trial: 1/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.171899284119547
+Current trial: 1/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.185657770734224
+Current trial: 2/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.932056961079866
+Current trial: 2/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.111152117873758
+Current trial: 2/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.384300908782734
+Current trial: 2/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.708380332540003
+Current trial: 2/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.175879018546937
+Current trial: 2/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.900913786218325
+Current trial: 2/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.546684432798145
+Current trial: 2/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.263937995868332
+Current trial: 2/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.22604854812289
+Current trial: 3/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.98226503887929
+Current trial: 3/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.147476324449826
+Current trial: 3/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.51157889509051
+Current trial: 3/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.71341420648389
+Current trial: 3/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.214397160983253
+Current trial: 3/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.871241928394
+Current trial: 3/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.438788126507973
+Current trial: 3/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.14657543582831
+Current trial: 3/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.150223267470892
+Current trial: 4/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.895652367200967
+Current trial: 4/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.075066289538313
+Current trial: 4/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.394744555836496
+Current trial: 4/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.816317146663323
+Current trial: 4/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.253470474131916
+Current trial: 4/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.984598629358118
+Current trial: 4/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.41326427568748
+Current trial: 4/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.20318744110415
+Current trial: 4/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.19428452433226
+Current trial: 5/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.983526211879166
+Current trial: 5/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.16524962051733
+Current trial: 5/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.49685761675869
+Current trial: 5/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.669727524852647
+Current trial: 5/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.253184006103538
+Current trial: 5/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.640875398258345
+Current trial: 5/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.621723819397744
+Current trial: 5/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.278838242256597
+Current trial: 5/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.20538260679467
+Current trial: 6/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.919732572064845
+Current trial: 6/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.173383270020167
+Current trial: 6/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.47833697290679
+Current trial: 6/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.819148973481674
+Current trial: 6/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.27277956432897
+Current trial: 6/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.789954577820822
+Current trial: 6/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.515361085016593
+Current trial: 6/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.33975579782765
+Current trial: 6/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.101008174021672
+Current trial: 7/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.917070244822867
+Current trial: 7/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.199864214448837
+Current trial: 7/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.358181998834198
+Current trial: 7/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.783874735434722
+Current trial: 7/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.280217591367432
+Current trial: 7/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.795683993646662
+Current trial: 7/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.503212405517615
+Current trial: 7/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.263675371369686
+Current trial: 7/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.21675675764277
+Current trial: 8/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.936143672840444
+Current trial: 8/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.18708620746372
+Current trial: 8/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.39147200942415
+Current trial: 8/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.783649640390422
+Current trial: 8/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.163988209080003
+Current trial: 8/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.920965202605657
+Current trial: 8/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.500496681352274
+Current trial: 8/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.31763710591281
+Current trial: 8/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.08779346073527
+Current trial: 9/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.00014497000018
+Current trial: 9/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.16406989754205
+Current trial: 9/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.48894942624679
+Current trial: 9/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.803303574021697
+Current trial: 9/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.293346585098618
+Current trial: 9/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 22.012966908839644
+Current trial: 9/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.516750429193223
+Current trial: 9/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.315568118670342
+Current trial: 9/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.11030251602699
+Current trial: 10/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.925221978654974
+Current trial: 10/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.12824638163437
+Current trial: 10/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.516705885965735
+Current trial: 10/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.748275192043423
+Current trial: 10/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.198538261881822
+Current trial: 10/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.849083317176678
+Current trial: 10/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.541679514839075
+Current trial: 10/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.184851363984478
+Current trial: 10/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.13305127143775
+Current trial: 11/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.013349172363007
+Current trial: 11/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.098535065972158
+Current trial: 11/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.391099966898025
+Current trial: 11/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.703811767748107
+Current trial: 11/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.270094408193188
+Current trial: 11/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.806182713544956
+Current trial: 11/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.51012596519911
+Current trial: 11/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.352645499190714
+Current trial: 11/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.237925269887683
+Current trial: 12/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.972714544280393
+Current trial: 12/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.131177286120078
+Current trial: 12/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.411492496884534
+Current trial: 12/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.81617769939453
+Current trial: 12/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.296769235433885
+Current trial: 12/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.822191447703744
+Current trial: 12/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.40616473272371
+Current trial: 12/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.347805911269404
+Current trial: 12/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 23.94163151400346
+Current trial: 13/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.988104200372277
+Current trial: 13/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.08305570928661
+Current trial: 13/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.54445731841679
+Current trial: 13/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.798909516314097
+Current trial: 13/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.263769036804774
+Current trial: 13/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.853218461852975
+Current trial: 13/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.574247768632915
+Current trial: 13/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.241656351195047
+Current trial: 13/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.17190587217499
+Current trial: 14/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.969730091201598
+Current trial: 14/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.18516401125885
+Current trial: 14/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.45830200754449
+Current trial: 14/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.777378703965383
+Current trial: 14/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.178466528807178
+Current trial: 14/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.775068837857702
+Current trial: 14/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.5129697205561
+Current trial: 14/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.0972896012737
+Current trial: 14/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.121916516331908
+Current trial: 15/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.965527679312117
+Current trial: 15/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.093846215499013
+Current trial: 15/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.43213065119113
+Current trial: 15/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.74654512811162
+Current trial: 15/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.18518085188532
+Current trial: 15/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 22.13177727285006
+Current trial: 15/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.52275554405651
+Current trial: 15/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.206313210281962
+Current trial: 15/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.180641431133836
+Current trial: 16/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.06184294986633
+Current trial: 16/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.256293584296543
+Current trial: 16/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.492130026196776
+Current trial: 16/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.733789611465852
+Current trial: 16/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.288489019237375
+Current trial: 16/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.800702555825183
+Current trial: 16/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.542314959580608
+Current trial: 16/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.414935725814303
+Current trial: 16/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.209434086484748
+Current trial: 17/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.94287785141853
+Current trial: 17/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.123916749856505
+Current trial: 17/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.33139201346438
+Current trial: 17/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.78717344839015
+Current trial: 17/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.262111300333174
+Current trial: 17/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.82066820342095
+Current trial: 17/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.505095315368806
+Current trial: 17/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.205521066950496
+Current trial: 17/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.060113300092496
+Current trial: 18/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.971672306714026
+Current trial: 18/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.222893789944862
+Current trial: 18/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.339064949059832
+Current trial: 18/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.897752123186137
+Current trial: 18/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.122239814184468
+Current trial: 18/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.836142233377473
+Current trial: 18/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.336513586681235
+Current trial: 18/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.27232418964752
+Current trial: 18/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.17657323154748
+Current trial: 19/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.950690446353065
+Current trial: 19/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.1975335873272
+Current trial: 19/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.472290527629184
+Current trial: 19/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.88469338710769
+Current trial: 19/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.283776981894505
+Current trial: 19/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.898341141017056
+Current trial: 19/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.604954855204653
+Current trial: 19/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.291440806856144
+Current trial: 19/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.182351939724697
+Current trial: 20/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.983072081533805
+Current trial: 20/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.117645671494813
+Current trial: 20/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.50007282620811
+Current trial: 20/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.851691246800442
+Current trial: 20/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.33402744058685
+Current trial: 20/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.888957534398287
+Current trial: 20/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.51747124937117
+Current trial: 20/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.201785716057714
+Current trial: 20/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.138466509140926
+Current trial: 21/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.011062604575272
+Current trial: 21/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.14076154660404
+Current trial: 21/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.47673326213942
+Current trial: 21/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.67671933973145
+Current trial: 21/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.194797580198326
+Current trial: 21/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.741089024361827
+Current trial: 21/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.34156654753849
+Current trial: 21/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.17649633894814
+Current trial: 21/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.181256551607817
+Current trial: 22/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.019347618126176
+Current trial: 22/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.12735882821198
+Current trial: 22/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.392550500347397
+Current trial: 22/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.83836941399983
+Current trial: 22/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.31236322837708
+Current trial: 22/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.78643123449808
+Current trial: 22/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.55062511952724
+Current trial: 22/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.263330776260204
+Current trial: 22/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.070526552636636
+Current trial: 23/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.98975743086686
+Current trial: 23/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.200757550877995
+Current trial: 23/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.3730015194119
+Current trial: 23/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.858252560601215
+Current trial: 23/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.266204677240353
+Current trial: 23/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.707336089768205
+Current trial: 23/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.509346590984876
+Current trial: 23/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.309400137768307
+Current trial: 23/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.163686368110348
+Current trial: 24/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.983097133159106
+Current trial: 24/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.093961836524898
+Current trial: 24/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.411248850908464
+Current trial: 24/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.765608912150526
+Current trial: 24/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.341685495374975
+Current trial: 24/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.883496224810926
+Current trial: 24/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.46271327891253
+Current trial: 24/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.228650325658634
+Current trial: 24/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.040909534243326
+Current trial: 25/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.94690565987787
+Current trial: 25/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.189395334416133
+Current trial: 25/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.429842725784
+Current trial: 25/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.773909087920856
+Current trial: 25/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.44848304307652
+Current trial: 25/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.906238446055
+Current trial: 25/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.461704040050677
+Current trial: 25/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.272960028128125
+Current trial: 25/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.065143953185895
+Current trial: 26/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.89886934922572
+Current trial: 26/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.19164258743143
+Current trial: 26/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.31995416799282
+Current trial: 26/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.737103965047936
+Current trial: 26/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.155601682242036
+Current trial: 26/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.823848218399178
+Current trial: 26/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.59222340750904
+Current trial: 26/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.383573249817402
+Current trial: 26/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.130905250154456
+Current trial: 27/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.97006694320652
+Current trial: 27/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.219355419097383
+Current trial: 27/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.507652828909272
+Current trial: 27/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.753537978723955
+Current trial: 27/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.201448778052566
+Current trial: 27/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.811224320014958
+Current trial: 27/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.76370189912842
+Current trial: 27/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.260700496372237
+Current trial: 27/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.12423425878808
+Current trial: 28/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 20.020757670050443
+Current trial: 28/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.166328706444574
+Current trial: 28/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.427488316623737
+Current trial: 28/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.75286520533615
+Current trial: 28/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.212513423864664
+Current trial: 28/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.754527556925893
+Current trial: 28/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.537126688852823
+Current trial: 28/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.316329936921477
+Current trial: 28/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.127024375428277
+Current trial: 29/1 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/1
+fid: 19.8831266324558
+Current trial: 29/2 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/2
+fid: 20.180232593112635
+Current trial: 29/3 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/3
+fid: 20.447680148037023
+Current trial: 29/4 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/4
+fid: 20.91981246102506
+Current trial: 29/5 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/5
+fid: 21.171130891711016
+Current trial: 29/6 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/6
+fid: 21.814501158224346
+Current trial: 29/7 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/7
+fid: 22.452385508972952
+Current trial: 29/8 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/8
+fid: 23.223930668184778
+Current trial: 29/9 -----------------------------------
+Processed text prompt ... 0/5000
+Processed text prompt ... 500/5000
+Processed text prompt ... 1000/5000
+Processed text prompt ... 1500/5000
+Processed text prompt ... 2000/5000
+Processed text prompt ... 2500/5000
+Processed text prompt ... 3000/5000
+Processed text prompt ... 3500/5000
+Processed text prompt ... 4000/5000
+Processed text prompt ... 4500/5000
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/rule_based_random/9
+fid: 24.255659190777635

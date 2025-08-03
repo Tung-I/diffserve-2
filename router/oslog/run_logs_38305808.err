@@ -1,0 +1,2 @@
+++ /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/conda shell.bash hook
+slurmstepd-gpu038: error: *** JOB 38305808 ON gpu038 CANCELLED AT 2025-06-18T04:22:07 ***

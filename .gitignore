@@ -1,0 +1,11 @@
+*.pdf
+*.jpg
+*.pyc
+logs/*.csv
+*.log
+*.pt
+.DS_Store
+.ipynb_checkpoints/
+*.ipynb
+__pycache__/
+*gurobi.lic*

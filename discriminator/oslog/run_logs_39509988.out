@@ -1,0 +1,212 @@
+/work/pi_huiguan_umass_edu/qizhengyang/query_aware_pipe/extend_diffserve/discriminator
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/condabin/conda
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/conda
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/conda-env
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/activate
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/bin/deactivate
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/etc/profile.d/conda.sh
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/etc/fish/conf.d/conda.fish
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/shell/condabin/Conda.psm1
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/shell/condabin/conda-hook.ps1
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable/etc/profile.d/conda.csh
+no change     /home/qizhengyang_umass_edu/.bashrc
+No action taken.
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.0, 'latency': 0.5, 'fid': 29.76}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.1, 'latency': 0.63, 'fid': 28.63}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.2, 'latency': 0.76, 'fid': 27.84}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.30000000000000004, 'latency': 0.89, 'fid': 27.22}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.4, 'latency': 1.02, 'fid': 26.64}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.5, 'latency': 1.15, 'fid': 26.06}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.6000000000000001, 'latency': 1.28, 'fid': 25.57}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.7000000000000001, 'latency': 1.41, 'fid': 25.16}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.8, 'latency': 1.54, 'fid': 25.02}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 0.9, 'latency': 1.67, 'fid': 25.02}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 1, 'threshold': 1.0, 'latency': 1.8, 'fid': 25.23}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.0, 'latency': 0.5, 'fid': 29.76}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.1, 'latency': 1.8, 'fid': 27.47}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.2, 'latency': 3.1, 'fid': 26.03}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.30000000000000004, 'latency': 4.4, 'fid': 24.89}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.4, 'latency': 5.7, 'fid': 23.89}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.5, 'latency': 7.0, 'fid': 22.97}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.6000000000000001, 'latency': 8.3, 'fid': 22.13}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.7000000000000001, 'latency': 9.6, 'fid': 21.46}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.8, 'latency': 10.9, 'fid': 21.05}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 0.9, 'latency': 12.2, 'fid': 20.76}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 2, 'threshold': 1.0, 'latency': 13.5, 'fid': 20.61}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.0, 'latency': 0.5, 'fid': 29.76}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.1, 'latency': 3.2, 'fid': 27.46}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.2, 'latency': 5.9, 'fid': 25.93}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.30000000000000004, 'latency': 8.6, 'fid': 24.69}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.4, 'latency': 11.3, 'fid': 23.59}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.5, 'latency': 14.0, 'fid': 22.46}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.6000000000000001, 'latency': 16.7, 'fid': 21.63}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.7000000000000001, 'latency': 19.4, 'fid': 20.83}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.8, 'latency': 22.1, 'fid': 20.36}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 0.9, 'latency': 24.8, 'fid': 19.97}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 0, 'heavy_model': 3, 'threshold': 1.0, 'latency': 27.5, 'fid': 19.95}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.0, 'latency': 1.3, 'fid': 25.23}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.1, 'latency': 2.6, 'fid': 23.85}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.2, 'latency': 3.9, 'fid': 22.94}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.30000000000000004, 'latency': 5.2, 'fid': 22.37}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.4, 'latency': 6.5, 'fid': 21.79}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.5, 'latency': 7.8, 'fid': 21.41}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.6000000000000001, 'latency': 9.1, 'fid': 21.18}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.7000000000000001, 'latency': 10.4, 'fid': 20.98}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.8, 'latency': 11.7, 'fid': 20.81}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 0.9, 'latency': 13.0, 'fid': 20.77}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 2, 'threshold': 1.0, 'latency': 14.3, 'fid': 20.61}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.0, 'latency': 1.3, 'fid': 25.23}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.1, 'latency': 4.0, 'fid': 23.96}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.2, 'latency': 6.7, 'fid': 23.13}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.30000000000000004, 'latency': 9.4, 'fid': 22.51}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.4, 'latency': 12.1, 'fid': 21.93}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.5, 'latency': 14.8, 'fid': 21.4}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.6000000000000001, 'latency': 17.5, 'fid': 20.99}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.7000000000000001, 'latency': 20.2, 'fid': 20.63}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.8, 'latency': 22.9, 'fid': 20.34}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 0.9, 'latency': 25.6, 'fid': 20.13}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 1, 'heavy_model': 3, 'threshold': 1.0, 'latency': 28.3, 'fid': 19.95}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.0, 'latency': 13.0, 'fid': 20.61}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.1, 'latency': 15.7, 'fid': 20.26}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.2, 'latency': 18.4, 'fid': 20.02}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.30000000000000004, 'latency': 21.1, 'fid': 19.75}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.4, 'latency': 23.8, 'fid': 19.48}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.5, 'latency': 26.5, 'fid': 19.42}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.6000000000000001, 'latency': 29.2, 'fid': 19.45}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.7000000000000001, 'latency': 31.9, 'fid': 19.44}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.8, 'latency': 34.6, 'fid': 19.49}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 0.9, 'latency': 37.3, 'fid': 19.68}
+compute FID of a folder with imagenet1k_fid_stats statistics
+Found 20000 images in the folder /scratch3/workspace/qizhengyang_umass_edu-diffserve/imagenet1k/collected_images_discriminator
+Logged config: {'light_model': 2, 'heavy_model': 3, 'threshold': 1.0, 'latency': 40.0, 'fid': 19.95}
