@@ -1,11 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 df = pd.read_csv('original_invocations.csv')
 
 transform_min = 1
-transform_max = 20
+transform_max = 6.4
 transform_difference = transform_max - transform_min
 
 original_invocations = df['invocations'].values
@@ -38,10 +39,11 @@ transformed_invocations = scaled_invocations * transform_difference
 # Scaled to [transform_min, transform_max]
 transformed_invocations += transform_min
 
-plt.figure(figsize=(8, 4))
+plt.figure(figsize=(9, 3))
 plt.plot(transformed_invocations)
-plt.xlabel('Time (s)')
-plt.ylabel('Demands (QPS)')
+plt.xlabel('Time (s)', fontsize=16)
+plt.ylabel('Demands (QPS)', fontsize=18)
+plt.yticks(fontsize=12)
 plt.grid(True)
 plt.savefig('transformed_invocations.png')
 plt.close()

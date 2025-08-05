@@ -127,9 +127,9 @@ class ClientDaemon(client_pb2_grpc.ClientServicer):
         ''' This function will implement probability-based routing from a routing
             table lookup.
         '''
-        task = self.routingTable[0].task
-
-        filteredWorkers = list(filter(lambda x: x.task == task, self.routingTable))
+        # task = self.routingTable[0].task
+        # filteredWorkers = list(filter(lambda x: x.task == task, self.routingTable))
+        filteredWorkers = list(self.routingTable)
 
         if len(filteredWorkers) == 0:
             logging.error(f'getHostID(): No hosts found for task: {task}')

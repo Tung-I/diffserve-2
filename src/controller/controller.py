@@ -19,6 +19,7 @@ from protos import worker_pb2, worker_pb2_grpc
 from qaware_cascade_twostage import CascadeIterativeAllocator
 from qaware_cascade_ILP import CascadeILPAllocator
 from qaware_multi_cascade_ILP import solve_milp_loop, create_lookup_table, model_comb_thres_config, model_fid_config
+from qaware_multi_cascade_ILP import solve_proteus_milp
 from config import get_cas_exec, set_cas_exec, get_model_order
 
 
@@ -27,7 +28,7 @@ EWMA_ALPHA = 0.7
 DEFAULT_EWMA_DECAY = 2.1
 USECONDS_IN_SEC = 1000 * 1000
 SLO_FACTOR = 1
-OVER_PROVISION_FACTOR = 1.2
+OVER_PROVISION_FACTOR = 1.05
 
 
 class AllocationPolicy(Enum):
@@ -39,6 +40,7 @@ class AllocationPolicy(Enum):
     CAS_ALL_HEAVY = 6
     CAS_ALL_LIGHT = 7
     CAS_STATIC = 8
+    PROTEUS_ILP = 9
 
 
 class WorkerEntry:
@@ -282,14 +284,13 @@ class Controller(controller_pb2_grpc.ControllerServicer):
         for requestID in self.queriesStartTime:
             time_diff = time.time() - self.queriesStartTime[requestID]
             # logging.info(f"time_diff: {time_diff}, expire_time: {expire_time}")
-            if expire_time < time_diff:
+            if requestID in self.queriesProcessed:
                 popped.append(requestID)
-                if requestID in self.queriesProcessed:
-                    continue
-                else:
-                    self.slo_timeouts['drop'] += 1
-                    self.slo_timeouts['total'] += 1
-                    self.queriesProcessed.add(requestID)
+            elif expire_time < time_diff:
+                popped.append(requestID)
+                self.slo_timeouts['drop'] += 1
+                self.slo_timeouts['total'] += 1
+                self.queriesProcessed.add(requestID)
         for requestID in popped:
             self.queriesStartTime.pop(requestID)
         
@@ -345,14 +346,17 @@ class Controller(controller_pb2_grpc.ControllerServicer):
                 if len(self.demand_per_task_history[task]) > EWMA_WINDOW:
                     self.demand_per_task_history[task] = self.demand_per_task_history[task][1:]
                 
+                half_life_steps = 3
                 # compute ewma
                 df = pd.DataFrame({'demand': self.demand_per_task_history[task]})
-                ewma = df.ewm(com=DEFAULT_EWMA_DECAY).mean()
+                # ewma = df.ewm(com=DEFAULT_EWMA_DECAY).mean()
+                ewma = df.ewm(halflife=half_life_steps, adjust=False).mean()
                 ewma_value = ewma['demand'].to_list()[-1]
                 self.ewma_demand_per_task[task] = ewma_value
                 
                 df = pd.DataFrame({'queue_length': self.queue_length_per_task_history[task]})
-                ewma = df.ewm(com=DEFAULT_EWMA_DECAY).mean()
+                # ewma = df.ewm(com=DEFAULT_EWMA_DECAY).mean()
+                ewma = df.ewm(halflife=half_life_steps, adjust=False).mean()
                 ewma_value = ewma['queue_length'].to_list()[-1]
                 self.ewma_queue_length_per_task[task] = ewma_value
                 
@@ -361,7 +365,8 @@ class Controller(controller_pb2_grpc.ControllerServicer):
                 self.total_demand_history = self.total_demand_history[1:]
             # Apply EWMA to the total system demand
             df = pd.DataFrame({'demand': self.total_demand_history})
-            ewma = df.ewm(com=DEFAULT_EWMA_DECAY).mean()
+            # ewma = df.ewm(com=DEFAULT_EWMA_DECAY).mean()
+            ewma = df.ewm(halflife=half_life_steps, adjust=False).mean()
             ewma_value = ewma['demand'].to_list()[-1]
             self.system_ewma = ewma_value
         logging.info(f"System-wide Demand = {total_system_demand}, EWMA = {self.system_ewma}")
@@ -392,12 +397,13 @@ class Controller(controller_pb2_grpc.ControllerServicer):
             self.allocateByAllLight()
         elif self.allocationPolicy == AllocationPolicy.CAS_STATIC:
             self.allocateByCascadeAlg(do_static=True)
+        elif self.allocationPolicy == AllocationPolicy.PROTEUS_ILP:
+            self.allocateByProteusILP()
         else:
             raise Exception(f'Unknown allocation policy: {self.allocationPolicy}')
         return
     
     # Update multi-level model cascade
-    # TODO: add queueing delay to MILP
     def allocateByMultiCascadeAlg(self, do_static=False):
         app = self.apps[0]
         logging.info(f'AllocatedModels before ReAlloc: {self.allocatedModels}')
@@ -494,6 +500,76 @@ class Controller(controller_pb2_grpc.ControllerServicer):
 
         logging.info(f'AllocatedModels after ReAlloc: {self.allocatedModels}')
         return
+
+    
+    def allocateByProteusILP(self):
+        app = self.apps[0]
+        slo = app.getLatencySLO() / USECONDS_IN_SEC  # in seconds
+        model_order = get_model_order()
+        latency_table = {(m, b): self.profiled_runtimes[(m, b)] for (m, b) in self.profiled_runtimes if m in model_order}
+        num_workers = len(self.workers)
+        ewma_demand = self.system_ewma
+
+        # Assign higher weights to heavier models (proxy for FID/accuracy)
+        fid_weighting = {
+            'sdxlltn': 29.76,
+            'sd35turbo': 25.13,
+            'sd35med': 20.61,
+            'sd35large': 19.95
+        }
+        required_workers = {}
+        batch_sizes_dict = {}
+        
+        logging.info(f'queue_lengh_per_model_ewma: {self.ewma_demand_per_task}, demand_per_model_ewma: {self.ewma_queue_length_per_task}')
+        milp_result = solve_proteus_milp(latency_table, num_workers, slo, ewma_demand, fid_weighting, 
+                                        self.ewma_demand_per_task, self.ewma_queue_length_per_task)
+        if milp_result is not None: 
+            required_workers = milp_result["device_allocation"]
+            batch_sizes_dict = milp_result["batch_sizes"]
+        else:
+            logging.warning("MILP failed: serving not started or no feasible solution.")
+            num_avail_workers = len([w for w in self.workers.values() if w.onCUDA])
+            for model in model_order:
+                required_workers[model] = 0
+            for i in range(num_avail_workers):
+                model = model_order[i % len(model_order)]
+                required_workers[model] += 1
+                batch_sizes_dict[model] = 1
+        
+        logging.info(f"[ProteusILP] Required workers per model: {required_workers}")
+        logging.info(f"[ProteusILP] Batch sizes per model: {batch_sizes_dict}")
+        logging.info(f"[ProteusILP] AllocatedModels BEFORE loading: {self.allocatedModels}")
+
+        cur_workers = {k: v for k, v in self.workers.items()}
+        available_models = list(required_workers.keys())
+
+        for hostID, worker in cur_workers.items():
+            if worker.onCUDA:
+                try:
+                    for idx, model in enumerate(available_models):
+                        if required_workers[model] > 0:
+                            batch_size = batch_sizes_dict[model]
+                            logging.info(f"[ProteusILP] Loading model {model} on worker {hostID}, batch size: {batch_size}")
+                            self.loadModelOnWorker(
+                                worker,
+                                model,
+                                infer_level=0, # Proteus: all models use level 0
+                                batch_size=batch_size,
+                                is_lightweight=0, # Proteus: all direct inference
+                                router_thres=0.0, # Proteus disables router
+                                conf_thres=1.0 # Proteus disables discriminator
+                            )
+                            required_workers[model] -= 1
+                            break
+                except Exception as e:
+                    logging.exception(f"[ProteusILP] Failed to assign model to worker {hostID}: {e}")
+            else:
+                try:
+                    self.loadModelOnWorker(worker, model='sink', infer_level=len(model_order), batch_size=1, is_lightweight=0, router_thres=0, conf_thres=0)
+                except Exception as e:
+                    logging.exception(f"[ProteusILP] Failed to load sink on CPU worker {hostID}: {e}")
+        logging.info(f"[ProteusILP] AllocatedModels AFTER loading: {self.allocatedModels}")
+
     
     def allocateByAllHeavy(self):
         logging.info(f'AllocatedModels before ReAlloc: {self.allocatedModels}')
@@ -943,7 +1019,7 @@ def getargs():
     parser.add_argument('--port', '-p', required=False, dest='port', default='50050',
                         help='Port to start the controller on')
     parser.add_argument('--allocation_policy', '-ap', required=True,
-                        dest='allocationPolicy', choices=['1', '2', '3', '4', '5', '6', '7', '8'],
+                        dest='allocationPolicy', choices=['1', '2', '3', '4', '5', '6', '7', '8', '9'],
                         help=(f'Allocation policy for the controller. 1: Round Robin, '
                               f'2: Tail-Heavy, 3: Cost-based ILP, 4: InferLine, 5: CascadeIteration'))
     parser.add_argument('--cascade', '-c', required=True,
@@ -970,6 +1046,10 @@ def serve(args):
 
 
 if __name__=='__main__':
+
+    if not os.path.exists('../../logs'):
+            os.makedirs('../../logs')
+            
     logfile_name = f'../../logs/controller_{time.time()}.log'
     logging.basicConfig(filename=logfile_name, level=logging.INFO, 
                         format='%(asctime)s %(levelname)-8s %(message)s')

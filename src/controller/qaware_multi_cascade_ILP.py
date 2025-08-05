@@ -364,5 +364,102 @@ def solve_milp_no_loop(total_servers, sysDemand, latencySLO, lookup_table, model
     return best_solution
 
 
+def solve_proteus_milp(model_latency_values, total_workers, slo, ewma_demand, fid_weighting, 
+                       demand_per_model, queue_length_per_model):
+    """
+    Proteus-style ILP allocator that:
+    - maximizes accuracy (weighted query volume),
+    - satisfies latency, EWMA demand, and worker constraints.
+
+    Parameters:
+    - model_latency_values: dict of (model, batch) -> latency in second
+    - fid_weighting: dict of model -> accuracy score (higher = better)
+    """
+    if ewma_demand == 0:
+        return None
+    
+    allowed_batch_sizes = [1, 2, 4, 8, 16, 32]
+    model_names = sorted(set([model for (model, b) in model_latency_values]))
+    num_models = len(model_names)
+
+    queuing_delay = defaultdict(float)
+    queue_safety_factor = 1.2
+    for model_name in model_names:
+        demand = demand_per_model.get(model_name, 0)
+        queue_len = queue_length_per_model.get(model_name, 0)
+        queuing_delay[model_name] = 0 if demand == 0 else queue_safety_factor * queue_len / demand
+
+    m = gp.Model("proteus_accuracy_allocator")
+    m.setParam('OutputFlag', 0)
+
+    # Variables
+    b = m.addVars(num_models, len(allowed_batch_sizes), vtype=GRB.BINARY, name="b")
+    w = m.addVars(num_models, vtype=GRB.INTEGER, name="w", lb=0)
+
+    # One batch size per model
+    for i in range(num_models):
+        m.addConstr(gp.quicksum(b[i, j] for j in range(len(allowed_batch_sizes))) <= 1)
+
+    for i in range(num_models):
+        y_i = gp.quicksum(b[i, j] for j in range(len(allowed_batch_sizes)))  # 0 or 1
+        m.addConstr(w[i] <= (total_workers - 1) * y_i)  # if no batch, w[i]=0
+        m.addConstr(w[i] >= y_i) 
+        # Total worker limit
+        m.addConstr(gp.quicksum(w[i] for i in range(num_models)) <= total_workers-1)
+
+    # Latency constraint
+    for i, model in enumerate(model_names):
+        for j, bs in enumerate(allowed_batch_sizes):
+            latency = model_latency_values.get((model, bs), None) * (1+queuing_delay[model])
+            if latency is not None:
+                m.addConstr(b[i, j] * latency <= slo)
+
+    # Throughput constraint to meet demand
+    total_throughput = gp.quicksum(
+        w[i] * b[i, j] * allowed_batch_sizes[j] / model_latency_values.get((model_names[i], allowed_batch_sizes[j]), 1)
+        for i in range(num_models)
+        for j in range(len(allowed_batch_sizes))
+        if (model_names[i], allowed_batch_sizes[j]) in model_latency_values
+    )
+    m.addConstr(total_throughput >= ewma_demand)
+
+    # Objective: maximize quality-weighted throughput
+    # weighted_accuracy = gp.quicksum(
+    #     fid_weighting.get(model_names[i], 1.0) *
+    #     w[i] * b[i, j] * allowed_batch_sizes[j] /
+    #     model_latency_values.get((model_names[i], allowed_batch_sizes[j]), 1)
+    #     for i in range(num_models)
+    #     for j in range(len(allowed_batch_sizes))
+    #     if (model_names[i], allowed_batch_sizes[j]) in model_latency_values
+    # )
+    # m.setObjective(weighted_accuracy, GRB.MAXIMIZE)
+    eps = 1e-9
+    vals = [fid_weighting[m] for m in model_names]
+    fmin, fmax = min(vals), max(vals)
+    den = (fmax - fmin)
+
+    if den < eps:
+        # all equal: give equal weight
+        inv_weight = {m: 1.0 for m in model_names}
+    else:
+        inv_weight = {m: (fmax - fid_weighting[m]) / (den + eps) for m in model_names}
+    weighted_quality = gp.quicksum(inv_weight[model_names[i]] * w[i]
+                               for i in range(num_models))
+    m.setObjective(weighted_quality, GRB.MAXIMIZE)
+
+    m.optimize()
+
+    allocation = {
+        "device_allocation": {model_names[i]: int(w[i].x) for i in range(num_models)},
+        "batch_sizes": {model_names[i]: allowed_batch_sizes[j]
+                        for i in range(num_models)
+                        for j in range(len(allowed_batch_sizes)) if b[i, j].x > 0.5},
+    }
+    print(f'Best Solution: {allocation}')
+
+    return allocation
+
+
+
 if __name__=='__main__':
     lookup_table = create_lookup_table(model_comb_thres_config, model_fid_config)

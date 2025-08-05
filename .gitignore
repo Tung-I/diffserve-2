@@ -9,3 +9,8 @@ logs/*.csv
 *.ipynb
 __pycache__/
 *gurobi.lic*
+
+logs/*
+logs_analysis*
+logs_analysis_Qi/*
+logs_analysis_Tungi/*
