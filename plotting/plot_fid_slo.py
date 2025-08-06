@@ -113,3 +113,27 @@ if __name__ == "__main__":
     plt.legend()
     plt.savefig(f"{saved_dir}/slo_violation_ratio.png")
     plt.close()
+
+
+    plt.figure(figsize=(7, 4))
+    plt.plot(np.arange(0,200,5)[:len(fid_1qps)], fid_1qps, label="QPS=1")
+    plt.plot(np.arange(0,200,5)[:len(fid_2qps)], fid_2qps, label="QPS=2")
+    plt.plot(np.arange(0,200,5)[:len(fid_4qps)], fid_4qps, label="QPS=4")
+
+    plt.plot(np.arange(0,200,5)[:len(fid_8qps)], fid_8qps, label="QPS=8")
+    plt.plot(np.arange(0,200,5)[:len(fid_12qps)], fid_12qps, label="QPS=12")
+    plt.plot(np.arange(0,200,5)[:len(fid_16qps)], fid_16qps, label="QPS=16")
+    plt.plot(np.arange(0,200,5)[:len(fid_18qps)], fid_18qps, label="QPS=18")
+
+    plt.plot(np.arange(0,200,5)[:len(fid_19qps)], fid_19qps, label="QPS=19")
+    plt.plot(np.arange(0,200,5)[:len(fid_20qps)], fid_20qps, label="QPS=20")
+    plt.plot(np.arange(0,200,5)[:len(fid_24qps)], fid_24qps, label="QPS=24")
+    plt.plot(np.arange(0,200,5)[:len(fid_28qps)], fid_28qps, label="QPS=28")
+    plt.plot(np.arange(0,200,5)[:len(fid_32qps)], fid_32qps, label="QPS=32")
+
+    plt.xlabel("Time (s)")
+    plt.ylabel("FID")
+    plt.grid(True)
+    plt.legend()
+    plt.savefig(f"{saved_dir}/fid.png")
+    plt.close()

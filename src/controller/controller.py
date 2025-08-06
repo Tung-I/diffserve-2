@@ -157,7 +157,13 @@ class Controller(controller_pb2_grpc.ControllerServicer):
         self.profiled_runtimes = {}
         if PIPELINE == 'multi': # hardcoded for now, should be able to read from csv files
             # base_latencies = {'sdxlltn': 0.5, 'sd35turbo': 1.3, 'sd35med': 13.0, 'sd35large': 27.0}
-            base_latencies = {'sdxlltn': 0.05, 'sd35turbo': 0.13, 'sd35med': 1.3, 'sd35large': 2.7}
+
+            ############ Ablation
+            # base_latencies = {'sdxlltn': 0.05, 'sd35turbo': 0.13, 'sd35med': 1.3, 'sd35large': 2.7}
+            #############
+            base_latencies = {'sdxlltn': 0.05, 'sd35turbo': 0.13}
+
+
             allowed_batch_sizes = [1,2,4,8,16,32]
             self.profiled_runtimes = {
                 (model, batch): round(base_latencies[model] * batch, 1) if batch == 1

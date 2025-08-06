@@ -25,6 +25,7 @@ def create_lookup_table(data_list, fid_list, total_models=4):
 
         if num_models == 2:
             # Single threshold (float) provided
+            print(f"models[0]: {models[0]}, models[1]: {models[1]}, thresholds: {thresholds}")
             route_ratio[int(models[0])] = 1.0  # First model always gets 100% of queries
             route_ratio[int(models[1])] = round(thresholds, 2)  # Second model gets threshold % of queries
 

@@ -1,7 +1,8 @@
 CAS_EXEC = 'multi' # modify config in controller.py, load_balancer.py, model.py, qaware_cascade_ILP.py ['sdturbo', 'sdxs', 'sdxlltn', 'multi']
 DO_SIMULATE = False
 
-CASCADE_MODEL_ORDER = ['sdxlltn', 'sd35turbo', 'sd35med', 'sd35large'] # models used for multi-level cascade
+# CASCADE_MODEL_ORDER = ['sdxlltn', 'sd35turbo', 'sd35med', 'sd35large'] # models used for multi-level cascade
+CASCADE_MODEL_ORDER = ['sdxlltn', 'sd35turbo'] # models used for multi-level cascade
 
 def get_model_order():
     return CASCADE_MODEL_ORDER

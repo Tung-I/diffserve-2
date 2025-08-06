@@ -20,7 +20,7 @@ from protos import worker_pb2, worker_pb2_grpc
 MSECONDS_IN_SEC = 1000
 
 class ClientDaemon(client_pb2_grpc.ClientServicer):
-    def __init__(self, ip: str, port: str, lbIP: str, lbPort: str, dataPath: Path, tracePath: Path):
+    def __init__(self, ip: str, port: str, lbIP: str, lbPort: str, dataPath: Path, tracePath: Path, static_qps=None):
         self.hostID = str(uuid.uuid4())
         logging.info(f'Client started with ID: {self.hostID}')
 
@@ -40,9 +40,14 @@ class ClientDaemon(client_pb2_grpc.ClientServicer):
         self.setupLB()
 
         self.datasets = self.prompt_load(dataPath)
-        self.traces = self.trace_load(tracePath)
-        # sendRequestsThread = threading.Thread(target=self.sendRequests)
-        sendRequestsThread = threading.Thread(target=self.sendRequestsByTraces)
+        # self.traces = self.trace_load(tracePath)
+        self.trace_path = tracePath
+
+        # Static mode
+        sendRequestsThread = threading.Thread(target=self.sendRequests, args=(3800, int(static_qps)))
+        # Dynamic mode
+        # sendRequestsThread = threading.Thread(target=self.sendRequestsByTraces)
+
         sendRequestsThread.start()
         
     def prompt_load(self, input_prompt: Path, limit_prompts=None):
@@ -155,7 +160,8 @@ class ClientDaemon(client_pb2_grpc.ClientServicer):
         logging.info('Start sending requests')
         request_start_time = time.time()
         last_request_timestamp = 0
-        for in_timestamp, data_idx in self.traces:
+        loaded_traces = self.trace_load(self.trace_path)
+        for in_timestamp, data_idx in loaded_traces:
             waiting_time = in_timestamp - last_request_timestamp
             time_difference = time.time() - request_start_time
             sleeping_time = waiting_time-time_difference if waiting_time>=time_difference else 0
@@ -306,12 +312,16 @@ def serve(args):
     lbIP = args.lbIP
     lbPort = args.lbPort
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
+    static_qps = args.static_qps
     
     # textpath = "../../traces/text_prompt_mscoco_120k.txt"
     textpath = "../../traces/text_imagenet1k_hr_5k.txt"
-    tracePath = f"../../traces/maf/multi_dynamic_testbed/trace_{args.trace}qps.txt"
+    if args.trace is not None:
+        tracePath = f"../../traces/maf/multi_dynamic_testbed/trace_{args.trace}qps.txt"
+    else:
+        tracePath = None
     # tracePath = "../../traces/maf/sdturbo_sdv15_dynamic_testbed/trace_4to32qps.txt" # 2to16, 2_5to20, 3to24, 3_5to28, 4to32, 3to40, 3_5to40, 1to8, 2to10
-    client = ClientDaemon(ip=ip, port=port, lbIP=lbIP, lbPort=lbPort, dataPath=textpath, tracePath=tracePath)
+    client = ClientDaemon(ip=ip, port=port, lbIP=lbIP, lbPort=lbPort, dataPath=textpath, tracePath=tracePath, static_qps=static_qps)
     client_pb2_grpc.add_ClientServicer_to_server(client, server)
     server.add_insecure_port(f'[::]:{port}')
     server.start()
@@ -330,7 +340,9 @@ def getargs():
     parser.add_argument('--lb_port', '-lbport', required=False, dest='lbPort',
                         default='50048', help='Port of the load balancer')
     parser.add_argument('--trace_file', '-trace', required=False, dest='trace',
-                        default='4to32', help='The trace file used for client')
+                        default=None, help='The trace file used for client')
+    parser.add_argument('--static_qps', '-qps', required=False, dest='static_qps',
+                        default=19, help='The static QPS to use for the client')
 
     return parser.parse_args()
 
